@@ -1,5 +1,8 @@
 # LangChain & Vector Databases in Production
 
+![Langchain image](https://media.licdn.com/dms/image/D4E12AQHnLknj0EYfBA/article-cover_image-shrink_600_2000/0/1684267676484?e=2147483647&v=beta&t=PrMj5CmpRsqMecZwmySc3LSnQ9jkZNoer75YWJFzJBM)
+
+
 Welcome to the **LangChain & Vector Databases In Production** repository! This repository accompanies the course offered by Activeloop, Towards AI, and Intel Disruptor Initiative, as part of the Gen AI 360: Foundational Model Certification program.
 
 ## Course Overview
