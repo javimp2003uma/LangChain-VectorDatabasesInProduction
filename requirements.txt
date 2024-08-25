@@ -5,3 +5,4 @@ tiktoken==0.4.0
 selenium==4.15.2
 ipykernel
 google-api-python-client
+transformers
