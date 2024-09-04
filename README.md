@@ -26,20 +26,30 @@ This repository contains a Voice Assistant application designed to interact with
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-4. Install Dependencies
+3. Install Dependencies
 
    ```{bash}
    pip install -r requirements.txt
    ```
 
-6. Configure the Application
+4. Configure the Application
 
    - Set up LangChain and DeepLake according to their respective documentation.
    - Create and edit configuration files as necessary.
 
-7. Run the Application
+5. Prepare the API keys.
+   Write an APIkeys.txt file with the following format:
    ```{bash}
-   python3 main.py
+   openai: sk-...
+   activeloop: ey...
+   elevenlabs: ...
+   ```
+   where in each line the API key of the corresponding platform should be written.
+
+6. Run the Application
+   ```{bash}
+   python3 gatheringData.py
+   streamlit run voiceAssistant.py
    ```
 
 ## Configuration
