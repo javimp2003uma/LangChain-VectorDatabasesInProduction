@@ -16,8 +16,8 @@ This repository contains a Voice Assistant application designed to interact with
 
 1. Clone the Repository
 
-   git clone https://github.com/yourusername/voice-assistant-knowledge-base.git
-   cd voice-assistant-knowledge-base
+   git clone https://github.com/javimp2003uma/VoiceAssistantForKnowledgeBase
+   cd VoiceAssistantForKnowledgeBase
 
 2. Set Up a Virtual Environment
 
