@@ -1,32 +1,53 @@
-# LangChain & Vector Databases in Production
+# Voice Assistant for Knowledge Base
 
-![Langchain image](https://media.licdn.com/dms/image/D4E12AQHnLknj0EYfBA/article-cover_image-shrink_600_2000/0/1684267676484?e=2147483647&v=beta&t=PrMj5CmpRsqMecZwmySc3LSnQ9jkZNoer75YWJFzJBM)
+## Description
 
+This repository contains a Voice Assistant application designed to interact with a knowledge base using voice commands. The project integrates LangChain for managing conversational interactions and DeepLake for knowledge storage and retrieval.
 
-Welcome to the **LangChain & Vector Databases In Production** repository! This repository accompanies the course offered by Activeloop, Towards AI, and Intel Disruptor Initiative, as part of the Gen AI 360: Foundational Model Certification program.
+![Langchain image](https://images.ctfassets.net/qtqp2awm2ktd/oofYVnuYAmDPK0Fr7kAwX/1dae42666b6e891c4a723466eb79e716/ezgif.com-resize.webp)
 
-## Course Overview
+## Features
 
-This course introduces the fundamentals of building applications using Large Language Models (LLMs) like GPT-4 with the LangChain framework. It’s ideal for AI professionals, developers, and enthusiasts looking to gain practical experience in creating AI-driven products. Basic Python knowledge is the only prerequisite.
+- Voice-based interaction with a knowledge base
+- Natural language processing for understanding and generating responses
+- Contextual and relevant responses based on user queries
 
-### Key Topics Covered:
-- **Large Language Models (LLMs):** Explore the capabilities, limitations, and practical applications of LLMs.
-- **LangChain Framework:** Learn how to integrate LLMs with external tools and data sources.
-- **Prompt Engineering:** Develop skills in crafting effective prompts to optimize LLM outputs.
-- **Memory Management:** Techniques to maintain context and improve performance in LLM-based applications.
-- **Vector Databases:** Use Activeloop's Deep Lake for efficient data storage, retrieval, and management.
-- **Real-World Projects:** Engage in hands-on projects such as building a news article summarizer, a customer support chatbot, and autonomous agents.
+## Installation
 
-## Why This Course?
+1. Clone the Repository
 
-By the end of the course, you will:
-- Be equipped to develop AI-driven products and applications using LangChain and LLMs.
-- Understand how to manage and optimize LLM outputs with prompt engineering and memory techniques.
-- Gain the ability to integrate LLMs with vector databases like Deep Lake for scalable AI solutions.
+   git clone https://github.com/yourusername/voice-assistant-knowledge-base.git
+   cd voice-assistant-knowledge-base
 
-## Tools and Technologies
+2. Set Up a Virtual Environment
 
-In this course, you will work with the following tools and technologies:
-- **LangChain:** A framework for developing applications powered by large language models.
-- **Deep Lake:** A serverless data lake that acts as a vector store, supporting various data types and enabling hybrid search on embeddings.
-- **OpenAI API:** Used for querying LLMs like GPT-4.
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. Install Dependencies
+
+   pip install -r requirements.txt
+
+4. Configure the Application
+
+   - Set up LangChain and DeepLake according to their respective documentation.
+   - Create and edit configuration files as necessary.
+
+5. Run the Application
+
+   python main.py
+
+## Configuration
+
+- LangChain: Edit `config/langchain_config.yml` to configure LangChain settings.
+- DeepLake: Follow DeepLake Documentation to set up and configure DeepLake.
+
+## Usage
+
+1. Start the application.
+2. Use voice commands to interact with the knowledge base.
+3. The assistant will process queries and provide relevant responses based on the knowledge base content.
+
+## Contact
+
+For any questions or feedback, please contact on my LinkedIn account: https://www.linkedin.com/in/javier-montes-p%C3%A9rez-a9765a279/
