@@ -2,9 +2,9 @@
 
 ## Description
 
-This repository contains a Voice Assistant application designed to interact with a knowledge base using voice commands. The project integrates LangChain for managing conversational interactions and DeepLake for knowledge storage and retrieval.
+This repository contains a Voice Assistant application designed to interact with a knowledge base using voice commands. The project integrates LangChain for managing conversational interactions and DeepLake for knowledge storage and retrieval. The knowledge base includes data retrieved from Wikipedia pages about notable football players.
 
-![Langchain image](https://images.ctfassets.net/qtqp2awm2ktd/oofYVnuYAmDPK0Fr7kAwX/1dae42666b6e891c4a723466eb79e716/ezgif.com-resize.webp)
+![Langchain image](learning_files/capture.png)
 
 ## Features
 
