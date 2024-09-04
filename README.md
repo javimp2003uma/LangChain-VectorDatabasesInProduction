@@ -15,27 +15,32 @@ This repository contains a Voice Assistant application designed to interact with
 ## Installation
 
 1. Clone the Repository
-
+   ```{bash}
    git clone https://github.com/javimp2003uma/VoiceAssistantForKnowledgeBase
    cd VoiceAssistantForKnowledgeBase
+   ```
 
 2. Set Up a Virtual Environment
-
+   ```{bash}
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
-3. Install Dependencies
+4. Install Dependencies
 
+   ```{bash}
    pip install -r requirements.txt
+   ```
 
-4. Configure the Application
+6. Configure the Application
 
    - Set up LangChain and DeepLake according to their respective documentation.
    - Create and edit configuration files as necessary.
 
-5. Run the Application
-
-   python main.py
+7. Run the Application
+   ```{bash}
+   python3 main.py
+   ```
 
 ## Configuration
 
