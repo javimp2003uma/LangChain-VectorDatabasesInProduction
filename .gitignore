@@ -1,2 +1,3 @@
 venv/
 APIkeys.txt
+.env
